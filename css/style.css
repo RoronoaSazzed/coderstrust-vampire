@@ -1,0 +1,134 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: Roronoa Sazzed
+Email: mysticyagami7@gmail.com
+URL: http://roronoasazzed.com/
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #f9ca24;
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    text-shadow: none;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #f0932b;
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #f0932b;
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+    text-shadow: none;
+}
+
+.dOne{
+    background-image: url(../images/d1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.headerOne{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+.pOne{
+    font-size: 18px;
+    color: white;
+}
+
+.buttonsD1{
+    color: white;
+    padding: 10px 60px;
+    background-color: #20e120;
+    opacity: .6;
+}
+
+.buttonsD1:hover{
+    color: white;
+    padding: 10px 60px;
+    background-color: #00ff00;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.buttonsD2{
+    color: white;
+    padding: 10px 60px;
+    background-color: transparent;
+    opacity: .6;
+}
+
+.buttonsD2{
+    color: white;
+    padding: 10px 95px;
+    border: 1px solid #2c3e50;
+    opacity: .8;
+}
+
+.buttonsD2:hover{
+    border: 1px solid #34495e;
+    color: white;
+    padding: 10px 95px;
+    background-color: #34495e;
+    text-decoration: none;
+}
+
+.marginContent{
+    margin-top: 70px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+@media (max-width: 767px){
+    .navbar-default{
+        background-color: black;
+        opacity: .7;
+    }
+
+    .headerOne{
+        font-size: 24px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .pOne {
+        font-size: 15px;
+        color: white;
+    }
+
+    .buttons{
+        margin-top: 35%;
+    }
+
+}
