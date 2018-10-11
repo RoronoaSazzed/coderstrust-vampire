@@ -25,16 +25,13 @@ p{
 
 .navbar-default .navbar-nav li a {
     color: white;
-    font-family: 'Kalam', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
-
+    text-shadow: none;
 }
 
 .navbar-default .navbar-nav li a:hover {
     color: #f9ca24;
-    font-family: 'Kalam', cursive;
-    font-size: 18px;
-    text-shadow: none;
 }
 
 
