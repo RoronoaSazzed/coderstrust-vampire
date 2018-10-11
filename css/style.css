@@ -5,6 +5,19 @@
 font-family: 'Ubuntu Condensed', sans-serif;
 */
 
+h1{
+    color: white;
+    font-family: 'K2D', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #f9ca24;
+}
+
 .navbar-default{
     background-color: transparent;
     border-color: transparent;
@@ -46,12 +59,8 @@ font-family: 'Ubuntu Condensed', sans-serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
-}
-
-.headerOne{
-    font-size: 50px;
-    color: white;
-    font-weight: bolder;
+    display: grid;
+    place-items: center;
 }
 
 .pOne{
@@ -89,10 +98,6 @@ font-family: 'Ubuntu Condensed', sans-serif;
 .buttonsD2:hover{
     border: 1px solid #34495e;
     background-color: #34495e;
-}
-
-.marginContent{
-    margin-top: 70px;
 }
 
 .buttons{
